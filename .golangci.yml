@@ -1,0 +1,12 @@
+version: "2"
+linters:
+  default: none
+  enable:
+    - mycustomlinter
+  settings:
+    custom:
+      mycustomlinter:
+        type: "module"
+        description: "Checks log messages for style and security rules (slog, zap)"
+        original-url: github.com/BahadirAhmedov/LogMessageCheck/lint
+        settings: {}

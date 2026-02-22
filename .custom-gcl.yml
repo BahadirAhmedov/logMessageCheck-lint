@@ -1,0 +1,5 @@
+version: v2.10.1
+plugins:
+  - module: "github.com/BahadirAhmedov/LogMessageCheck/lint"
+    import: "github.com/BahadirAhmedov/LogMessageCheck/lint/plugin"
+    path: .
