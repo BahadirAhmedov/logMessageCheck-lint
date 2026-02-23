@@ -32,8 +32,8 @@ Custom Go linter that validates log messages for style and security rules. Suppo
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/BahadirAhmedov/LogMessageCheck/lint.git
-cd lint
+git clone git@github.com:BahadirAhmedov/logMessageCheck-lint.git
+cd logMessageCheck-lint
 ```
 
 2. Создайте `.custom-gcl.yml` в корне вашего проекта:
